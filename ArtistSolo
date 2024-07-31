@@ -1,0 +1,14 @@
+package com.examen;
+
+public class ArtistSolo extends ArtistGroup{
+    private String lastName;
+    private String firstName;
+    private localDate datedeNaissance;
+
+    public ArtistSolo(String id, String nomDeScene, localDate anneeDeDebut, String nationalite, String lastName, String firstName, localDate datedeNaissance) {
+        super(id, nomDeScene, anneeDeDebut, nationalite);
+        this.lastName = lastName;
+        this.firstName = firstName;
+        this.datedeNaissance = datedeNaissance;
+    }
+}
