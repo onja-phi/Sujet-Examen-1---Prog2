@@ -7,6 +7,13 @@ public class ArtistSolo extends ArtistGroup{
     private String firstName;
     private localDate datedeNaissance;
 
+    public String getFirstName() {
+        return firstName;
+    }
+    public String getLastName() {
+        return lastName;
+    }
+
     public ArtistSolo(String id, String nomDeScene, localDate anneeDeDebut, String nationalite, String lastName, String firstName, localDate datedeNaissance) {
         super(id, nomDeScene, anneeDeDebut, nationalite);
         this.lastName = lastName;
