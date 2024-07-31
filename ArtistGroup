@@ -1,0 +1,15 @@
+package com.examen;
+
+public class ArtistGroup {
+    private String id;
+    private String nomDeScene;
+    private localDate anneeDeDebut;
+    private String Nationalite;
+
+    public ArtistGroup(String id, String nomDeScene, localDate anneeDeDebut, String nationalite) {
+        this.id = id;
+        this.nomDeScene = nomDeScene;
+        this.anneeDeDebut = anneeDeDebut;
+        Nationalite = nationalite;
+    }
+}
